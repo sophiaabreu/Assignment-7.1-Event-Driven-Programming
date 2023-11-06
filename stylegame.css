@@ -1,0 +1,92 @@
+nav{
+    height: 6000px;
+    width:  200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+body{
+    background-color: rgb(245, 233, 233);
+    color: rgb(7, 45, 78);
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+p{
+    color: blueviolet;
+}
+
+
+header{
+    text-align: center;
+}
+
+h1{
+    color: rgb(198, 170, 9);
+    font-family: fantasy;
+    font-size: 100px;
+    text-align: center;
+}
+
+h2{
+    color:rgb(167, 57, 57);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+h3{
+    color:rgb(167, 57, 57);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+h4{
+    color: rgb(215, 216, 148);
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+div {
+    color: rgb(82, 97, 122);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    text-align: center;
+}
+
+button{
+    color: rgb(3, 22, 55);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.blink_text
+{
+    animation:2s blinker linear infinite;
+    -webkit-animation:2s blinker linear infinite;
+    -moz-animation:2s blinker linear infinite;
+    color: rgb(167, 57, 57);
+}
+
+@-moz-keyframes blinker
+{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker
+{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker
+{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+ }

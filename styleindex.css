@@ -1,0 +1,120 @@
+nav{
+    height: 6000px;
+    width:  200px;
+    float: left;
+    padding: 5px;
+    margin-left: 60px;
+    line-height: 30px;
+    font-size:25px;
+}
+
+body{
+    background-color: rgb(245, 233, 233);
+}
+
+h1{
+    color:rgb(167, 57, 57);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2{
+    color:rgb(167, 57, 57);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+p{
+    color: blueviolet;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-right: 150px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    margin-right: 200px;
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+#memeImage{
+    margin-right: 200px;
+    animation-duration: 0s;
+    animation-name: moving;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes moving {
+    from{
+        margin-right: 100px;
+    }
+    to{
+        margin-right: 300px;
+    }
+}
+
+button{
+    background-color:rgb(150, 40, 172);
+    border: 2px solid rgb(150, 40, 172);
+    color: white;
+    padding: 12px 28px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    margin-right: 200px;
+}
+
+/* Is used to select elements when you mouse over them */
+button:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#startButton{
+    background-color:rgb(183, 83, 163);
+    border: 2px solid rgb(183, 83, 163);
+    color: white;
+    padding: 12px 28px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    transition-duration: 0.4s;
+}
+
+/* Is used to select elements when you mouse over them */
+#startButton:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#stopButton{
+    background-color:rgb(123, 31, 105);
+    border: 2px solid rgb(123, 31, 105);
+    color: white;
+    padding: 12px 28px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    transition-duration: 0.4s;
+}
+
+/* Is used to select elements when you mouse over them */
+#stopButton:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
